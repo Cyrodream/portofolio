@@ -3,10 +3,6 @@
   --line: rgba(255,255,255,.09); --accent: #a78bfa; --accent-2: #55d6be; --card: rgba(17,20,31,.78);
   --shadow: 0 24px 70px rgba(0,0,0,.24);
 }
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
 body.light-theme {
   --bg: #f6f7fb; --surface: #fff; --surface-2: #edf0f8; --text: #171a2a; --muted: #656b80;
   --line: rgba(25,30,55,.12); --accent: #7655e8; --accent-2: #138c7a; --card: rgba(255,255,255,.82);
