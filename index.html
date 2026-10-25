@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio IT Fairuz Azzahran — web developer, teknologi, dan proyek kreatif." />
+  <title>Fairuz Azzahran | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Fairuz Azzahran, ke beranda"><span class="logo-bracket">&lt;</span>FA<span class="logo-bracket">/&gt;</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Beranda</a>
+      <a href="#about" class="nav-link">Tentang</a>
+      <a href="#skills" class="nav-link">Keahlian</a>
+      <a href="#projects" class="nav-link">Proyek</a>
+      <a href="#contact" class="nav-link">Kontak</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">☼</button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="status-dot"></span> OPEN TO LEARN & COLLABORATE</div>
+        <p class="eyebrow">HALO, DUNIA! SAYA</p>
+        <h1>Fairuz <span class="gradient-text">Azzahran</span><span class="hero-period">.</span></h1>
+        <h2 class="hero-role">Calon <span id="typingText">Web Developer</span><span class="cursor">|</span></h2>
+        <p class="hero-description">Saya tertarik pada dunia teknologi dan pengembangan web. Saya membangun pengalaman digital yang <span class="text-highlight">fungsional, modern, dan berkesan.</span></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Jelajahi Proyek <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Hubungi Saya</a>
+        </div>
+        <div class="social-line"><span class="mono muted">TEMUKAN SAYA</span><span class="line"></span><a href="#contact">GitHub</a><a href="#contact">LinkedIn</a></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="code-top-right">● LIVE</span></div>
+          <div class="code-content">
+            <div><span class="line-number">01</span><span class="syntax-purple">const</span> <span class="syntax-blue">developer</span> = {</div>
+            <div><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="syntax-green">'Fairuz Azzahran'</span>,</div>
+            <div><span class="line-number">03</span>&nbsp;&nbsp;focus: <span class="syntax-green">'Web Development'</span>,</div>
+            <div><span class="line-number">04</span>&nbsp;&nbsp;skills: [</div>
+            <div><span class="line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-orange">'HTML'</span>, <span class="syntax-orange">'CSS'</span>,</div>
+            <div><span class="line-number">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-orange">'JavaScript'</span></div>
+            <div><span class="line-number">07</span>&nbsp;&nbsp;],</div>
+            <div><span class="line-number">08</span>&nbsp;&nbsp;mindset: <span class="syntax-green">'Always learning'</span></div>
+            <div><span class="line-number">09</span>};</div>
+            <div class="code-comment"><span class="line-number">10</span>// ide → code → create ✨</div>
+          </div>
+          <div class="code-footer"><span><span class="status-dot"></span> Ready to build</span><span>UTF-8&nbsp; · &nbsp;JS</span></div>
+        </div>
+        <div class="floating-chip chip-html"><span class="chip-icon orange">5</span> HTML5</div>
+        <div class="floating-chip chip-css"><span class="chip-icon blue">✳</span> CSS3</div>
+        <div class="floating-chip chip-js"><span class="chip-icon yellow">JS</span> JavaScript</div>
+        <div class="visual-caption mono">CREATIVE MIND / DEVELOPER MODE</div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="mouse-icon"></span> GULIR UNTUK MENJELAJAH</a>
+    </section>
+
+    <section class="section-shell about-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / TENTANG SAYA</p><h2>Mengubah rasa ingin tahu<br>menjadi <span class="gradient-text">karya nyata.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">Teknologi bukan cuma tentang kode. Ini tentang memecahkan masalah, menciptakan solusi, dan membuat sesuatu yang bermanfaat.</p>
+          <p>Saya Fairuz Azzahran, seorang pembelajar di bidang IT yang sedang mengembangkan kemampuan dalam web development. Saya senang mengeksplorasi ide, belajar teknologi baru, dan mengubahnya menjadi proyek yang bisa digunakan.</p>
+          <a href="#contact" class="text-link">Mari berkolaborasi <span>↗</span></a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-card"><span class="stat-symbol">⌘</span><strong>01<span>+</span></strong><p>Semangat belajar</p></div>
+          <div class="stat-card"><span class="stat-symbol">✳</span><strong>∞</strong><p>Ide untuk dieksplorasi</p></div>
+          <div class="stat-card stat-wide"><span class="stat-symbol">↗</span><strong>100<span>%</span></strong><p>Komitmen untuk terus berkembang</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell skills-section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / KEAHLIAN</p><h2>Peralatan untuk<br><span class="gradient-text">membangun ide.</span></h2><p class="section-subtitle">Teknologi yang sedang saya pelajari dan gunakan untuk membangun web.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-head"><span class="skill-logo html-logo">5</span><span class="skill-level">FUNDAMENTAL</span></div><h3>HTML5</h3><p>Menyusun struktur halaman web yang rapi dan semantik.</p><div class="skill-track"><span style="--level:82%"></span></div><div class="skill-meta"><span>Struktur & aksesibilitas</span><span>Belajar</span></div></article>
+        <article class="skill-card reveal"><div class="skill-head"><span class="skill-logo css-logo">✳</span><span class="skill-level">DESIGN</span></div><h3>CSS3</h3><p>Membuat tampilan menarik, responsif, dan nyaman digunakan.</p><div class="skill-track"><span style="--level:70%"></span></div><div class="skill-meta"><span>Layout & responsive</span><span>Belajar</span></div></article>
+        <article class="skill-card reveal"><div class="skill-head"><span class="skill-logo js-logo">JS</span><span class="skill-level">INTERACTION</span></div><h3>JavaScript</h3><p>Menambahkan interaksi dan logika agar web lebih hidup.</p><div class="skill-track"><span style="--level:55%"></span></div><div class="skill-meta"><span>DOM & logika dasar</span><span>Belajar</span></div></article>
+        <article class="skill-card reveal"><div class="skill-head"><span class="skill-logo git-logo">⌘</span><span class="skill-level">WORKFLOW</span></div><h3>Git & GitHub</h3><p>Mengelola versi kode dan membagikan proyek secara online.</p><div class="skill-track"><span style="--level:45%"></span></div><div class="skill-meta"><span>Version control</span><span>Eksplorasi</span></div></article>
+      </div>
+      <p class="note mono">* Tingkat keahlian adalah contoh awal — silakan sesuaikan dengan kemampuan sebenarnya.</p>
+    </section>
+
+    <section class="section-shell projects-section" id="projects">
+      <div class="projects-heading"><div class="section-heading reveal"><p class="eyebrow">03 / PROYEK PILIHAN</p><h2>Belajar dengan <span class="gradient-text">membangun.</span></h2><p class="section-subtitle">Contoh ide proyek yang bisa kamu kembangkan dan ganti dengan hasil karyamu sendiri.</p></div>
+        <div class="project-filters reveal" role="group" aria-label="Filter proyek"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="tool">Tools</button></div>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <article class="project-card reveal" data-category="web"><div class="project-art art-one"><div class="mini-browser"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-layout"><div class="mini-sidebar"></div><div class="mini-main"><span></span><span></span><div></div></div></div></div><span class="art-tag">01 / UI DESIGN</span></div><div class="project-info"><div class="project-type">WEB DESIGN</div><h3>Personal Portfolio</h3><p>Website profil pribadi dengan desain modern, animasi halus, dan tampilan responsif.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="project-open" data-project="portfolio">Lihat detail <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="tool"><div class="project-art art-two"><div class="todo-widget"><div class="todo-title">Today's focus <span>✦</span></div><div class="todo-item"><b>✓</b><span>Belajar JavaScript</span></div><div class="todo-item"><b></b><span>Buat mini project</span></div><div class="todo-item"><b></b><span>Review kode</span></div><div class="todo-progress"><span></span></div></div><span class="art-tag">02 / PRODUCTIVITY</span></div><div class="project-info"><div class="project-type">WEB TOOL</div><h3>TaskFlow App</h3><p>Aplikasi daftar tugas sederhana untuk membantu mengatur aktivitas dan target harian.</p><div class="tag-list"><span>DOM</span><span>CSS</span><span>LocalStorage</span></div><button class="project-open" data-project="taskflow">Lihat detail <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="web"><div class="project-art art-three"><div class="weather-widget"><div class="weather-top">YOUR CITY <span>↗</span></div><div class="weather-sun">☼</div><strong>28°</strong><p>Cerah berawan</p><div class="weather-bottom"><span>Humidity <b>68%</b></span><span>Wind <b>12 km/h</b></span></div></div><span class="art-tag">03 / API CONCEPT</span></div><div class="project-info"><div class="project-type">WEB APP</div><h3>Weather Dashboard</h3><p>Dashboard cuaca dengan tampilan kartu informatif dan konsep integrasi API.</p><div class="tag-list"><span>JavaScript</span><span>API</span><span>Responsive</span></div><button class="project-open" data-project="weather">Lihat detail <span>↗</span></button></div></article>
+      </div>
+      <div class="project-empty" id="projectEmpty" hidden>Belum ada proyek dalam kategori ini.</div>
+    </section>
+
+    <section class="section-shell process-section">
+      <div class="section-heading reveal"><p class="eyebrow">04 / CARA SAYA BERKARYA</p><h2>Dari ide menuju <span class="gradient-text">solusi.</span></h2></div>
+      <div class="process-grid">
+        <div class="process-item reveal"><span class="process-number">01</span><div class="process-icon">⌕</div><h3>Explore</h3><p>Memahami masalah, mencari referensi, dan menyusun ide.</p></div>
+        <div class="process-item reveal"><span class="process-number">02</span><div class="process-icon">▧</div><h3>Design</h3><p>Membuat struktur dan tampilan yang jelas serta mudah digunakan.</p></div>
+        <div class="process-item reveal"><span class="process-number">03</span><div class="process-icon">⌘</div><h3>Develop</h3><p>Mengubah desain menjadi kode yang berfungsi.</p></div>
+        <div class="process-item reveal"><span class="process-number">04</span><div class="process-icon">↗</div><h3>Improve</h3><p>Menguji, memperbaiki, dan terus meningkatkan kualitas.</p></div>
+      </div>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div class="contact-panel reveal"><div class="contact-orb"></div><div class="contact-content"><p class="eyebrow">05 / KONTAK</p><h2>Punya ide menarik?<br><span class="gradient-text">Mari wujudkan.</span></h2><p>Saya terbuka untuk belajar bersama, bertukar ide, dan berkolaborasi dalam proyek kreatif.</p><a class="button button-primary" href="mailto:emailkamu@example.com?subject=Kolaborasi%20Proyek">Kirim Email <span>↗</span></a><p class="contact-small">Ganti alamat email di kode dengan email aktif milikmu.</p></div><div class="contact-decoration mono">LET'S BUILD<br>SOMETHING<br>COOL<span>_</span></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="logo" href="#home"><span class="logo-bracket">&lt;</span>FA<span class="logo-bracket">/&gt;</span></a><p>Dibuat dengan rasa ingin tahu dan <span class="heart">♥</span> oleh Fairuz Azzahran.</p><a href="#home" class="back-top">KEMBALI KE ATAS ↑</a><span class="footer-year mono">© <span id="year"></span></span></footer>
+
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Tutup detail">×</button>
+      <p class="eyebrow">PROJECT SNAPSHOT</p><h2 id="modalTitle">Nama proyek</h2><p id="modalDescription"></p><div class="tag-list" id="modalTags"></div><p class="modal-tip">Ini adalah konsep contoh. Bangun proyek aslinya, lalu tambahkan tautan demo dan repositori GitHub milikmu.</p>
+    </div>
+  </div>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+</body>
+</html>
